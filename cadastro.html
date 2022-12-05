@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trabalho de Web/Matématica</title>
+    <link href='css/estilo.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+
+        <a class="navbar-brand" href=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logaritmos.html">Logaritmos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="funcoesalgoritmicas.html">Funções Logarítmicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="matematicafinanceira.html">Matemática Financeira</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="video.html">Video Aula</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastro Aulas EAD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="localizacao.html">Localização</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fale.html">Contato Professor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="autoavaliacao.html">Auto Avaliação</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div class="row mt-3">
+            <div class="container">
+                <div class="col md-auto text-center">
+                    <h2 class="titulo py-3 mt-4"><img src="imagens/logo.jpg" width='110' height='110' align='middle'>
+                        Portfólio de
+                        Matemática
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="cadastro">
+        <h5>
+            <div class="texto">Cadastre-se para as aulas de Logaritmos, Funções Logaritmicas e Matématica Finaceira
+        </h5>
+    </div>
+    </div>
+    <br>
+    <form action="teste.php" method="GET" id="formulario">
+        <div class="cadastro">
+            <label> Nome Completo:* <br>
+                <input type="text" name="nome" placeholder="Digite seu nome:" minlength="5" maxlength="150"
+                    required="required">
+            </label>
+            <br>
+            <br>
+            <label> Data de Nascimento:* <br>
+                <input type="date" name="datan" required="required">
+            </label>
+            <br>
+            <br>
+            <label> Email:* <br>
+                <input type="email" name="email" placeholder="Digite o email:" required="required">
+            </label>
+            <br>
+            <br>
+            <label> Telefone:* <br>
+                <input type="telefone" name="telefone" placeholder="Digite seu telefone:" required="required">
+            </label>
+            <br>
+            <br>
+            <fieldset>
+                <legend> Sexo:* </legend>
+                <input id="feminino" type="radio" name="genero" value="F" required="required">
+                <label for="feminino">Feminino</label>
+                <input id="masculino" type="radio" name="genero" value="M" required="required">
+                <label for="maculino">Masculino</label>
+            </fieldset>
+            <br>
+            <label>Cidade:* <br>
+                <select name='bebida'>
+                    <option value='MC'>Erechim</option>
+                    <option value='CA'>Erval Grande</option>
+                    <option value='CP'>São Valentim</option>
+                    <option value='CH'>Barão de Cotegipe</option>
+                    <option value='CP'>Gaurama</option>
+                    <option value='CH'>Paulo Bento</option>
+                    <option value='CP'>Getúlio Vargas</option>
+                    <option value='CH'>Outra</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                <legend>Qual é seu horário disponível?</legend>
+                <input type='checkbox' name='partedodia' value='M'> Manhã
+                <input type='checkbox' name='partedodia' value='T'> Tarde
+                <input type='checkbox' name='partedodia' value='N'> Noite
+            </label>
+            <br>
+            <br>
+            <br>
+            <label>
+                Receber novidades por email <input type='checkbox' name='novidades' value='recebern'>
+            </label>
+            <br>
+            <br>
+            <input type='submit' value='Enviar'>
+            <input type='reset' value='Limpar'>
+            <br>
+            <br>
+
+            <br>
+            <center>
+                <h5 class=" botao1"><a href="localizacao.html" style="color: aliceblue">Próximo</a></h5>
+        </div>
+        </div>
+        </center>
+    </form>
+    </div>
+    <br>
+    <a href="index.html">
+        <span class="figura material-symbols-outlined " style="font-size: 50px; color: rgb(95, 12, 204);">
+            Home
+        </span>
+    </a>
+
+
+
+</body>
+
+</html>

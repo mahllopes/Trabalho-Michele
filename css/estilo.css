@@ -1,0 +1,173 @@
+
+
+body {
+    margin:20px;
+    background: rgb(207, 180, 180);
+    background: linear-gradient(rgb(179, 120, 228), rgb(241, 240, 241))
+}
+
+.previsao {
+    text-align: center;
+
+}
+.botao1{
+    align-self: center;
+    background-color: #e0bff0;
+    border-radius: 5px;
+    padding: 5px;
+}
+.cadastro {
+    text-align: center;
+
+}
+
+.fale {
+    text-align: center;
+}
+
+.video1 {
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(149, 10, 214);
+    text-align: center;
+}
+
+.titulo2 {
+    font-family: 'Secular One', sans-serif;
+    color: rgb(149, 10, 214);
+    text-align: center;
+}
+
+.titulo3 {
+    font-family: 'Slabo 27px', serif;
+    color: rgb(142, 30, 223);
+    text-align: center;
+}
+
+.titulo4 {
+    font-family: 'Nerko One', cursive;
+    color: darkmagenta
+}
+
+.titulo5{
+    text-align: center;
+    color: rgb(120, 20, 145);
+    font-family: 'Nerko One', cursive;
+}
+.texto {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(149, 10, 214);
+}
+
+.material-symbols-outlined {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    visibility: visible;
+}
+
+#tabelinha td,th{
+    border: 1 px solid black;
+    padding: 8px;
+}
+#tabelinha{
+    border-collapse: collapse;
+    width: 100%;
+}
+#tabelinha thead{
+padding-top: 10px;
+padding-bottom: 10px;
+text-align:left ;
+background-color: #c5aae9;
+color: rgb(240, 240, 240);
+}
+#tabelinha tbody > tr:nth-child(even) {
+    background-color: #b281db;
+}
+#tabelinha tbody > tr:nth-child(odd) {
+    background-color: #b69ccc;
+}
+#tabelinha tbody > tr:hover {
+    background-color: rgb(212, 171, 231);
+}
+#formulario {
+    width: 600px;
+    padding: 55px;
+    background: rgb(189, 163, 219);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 0 16px rgb(175, 159, 159);
+    padding: 55px;
+    width: 500px;
+    font-family: 'Nerko One', cursive;
+}
+#formulariozinho {
+    width: 600px;
+    padding: 55px;
+    background: rgb(189, 163, 219);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 0 16px rgb(206, 192, 224);
+    padding: 55px;
+    width: 500px;
+    font-family: 'Signika Negative', sans-ser
+}
+#tabela td,th{
+    border: 1 px solid black;
+    padding: 8px;
+}
+#tabela{
+    border-collapse: collapse;
+    width: 100%;
+}
+#tabela thead{
+padding-top: 10px;
+padding-bottom: 10px;
+text-align:left;
+background-color: #e1c7ff;
+color: aliceblue;
+}
+#tabela tbody > tr:nth-child(even) {
+    background-color: #cea4f0;
+}
+#tabela tbody > tr:nth-child(odd) {
+    background-color: #d8bbf1;
+}
+#tabela tbody > tr:hover {
+    background-color: rgb(186, 151, 202);
+}
+.tabela{
+    background-color: #b88ef0;
+}
+fieldset {
+    background-color: rgb(228, 156, 222);
+    border-radius: 5px;
+}
+
+thead {
+    background-color: rgb(195, 138, 209);
+}
+
+nav {
+    background-color: #d3b5f7;
+    color:blueviolet;
+    font-family: 'Signika Negative', sans-ser
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+.botao1 {
+
+    align-items: center;
+    background-color: #c18de4;
+    border-radius: 5px;
+    padding: 5px;
+}
